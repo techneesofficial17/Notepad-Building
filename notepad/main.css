@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: 0;
+  border: 0;
+  font-family: Ubuntu;
+}
+
+#text {
+  background: #5e97bd;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #A609F9;
+}
+
+.main {
+  -webkit-box-shadow: 3px 2px 20px rgba(199, 199, 199, 0.344);
+          box-shadow: 3px 2px 20px rgba(199, 199, 199, 0.344);
+  border: 1px solid white;
+  border-top-color: #3187D4;
+  border-bottom-color: #5CD2EE;
+  background: rgba(255, 255, 255, 0.774);
+  height: 69vh;
+  width: 70vw;
+}
+
+.main .nav {
+  border-left: 2px solid #3187D4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #3187D4;
+}
+
+.main .nav h4 {
+  margin-left: 1rem;
+  font-size: 14px;
+  font-weight: 300;
+  cursor: default;
+}
+
+.main .nav .icons {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  place-content: center;
+  text-align: center;
+  background: #3187D4;
+  height: 100%;
+  letter-spacing: -3px;
+  font-size: 20px;
+}
+
+.main .nav .icons span {
+  padding: 3.4px 8px;
+  cursor: pointer;
+}
+
+.main .nav .icons span:hover {
+  background: #77a8d3b0;
+}
+
+.main .body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main .body .title {
+  cursor: default;
+  background: whitesmoke;
+  font-size: 8px;
+  padding: 3px 0;
+}
+
+.main .body .title span {
+  cursor: default;
+  padding: 3px 5px;
+}
+
+.main .body .title span:hover {
+  background: #c7c7c7;
+}
+
+.main .body .title span:nth-of-type(1) {
+  padding: 3px 5px;
+}
+
+.main .body .textarea {
+  width: 100%;
+  background: #347180;
+  height: 24rem;
+}
+
+.main .body .textarea #text {
+  height: 100%;
+  width: 100%;
+  resize: none;
+  padding: 4px;
+  font-size: 14px;
+}
+
+.main .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  height: 1.2rem;
+}
+
+.main .footer .blank {
+  width: 70%;
+}
+
+.main .footer h6 {
+  margin: 0 7px;
+  font-size: 8px;
+}
+
+.open {
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+  visibility: hidden;
+  margin: 3px .5px;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.836);
+  -webkit-box-shadow: 3px 10px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 3px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.open ul {
+  list-style: none;
+  text-transform: capitalize;
+}
+
+.open ul li {
+  padding: 4px 5px;
+}
+
+.open ul li:hover {
+  background: rgba(225, 221, 221, 0.748);
+}
+/*# sourceMappingURL=main.css.map */

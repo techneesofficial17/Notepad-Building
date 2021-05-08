@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NotePad Clone</title>
+    <link rel="stylesheet" href="../styles files/notepad/main.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="nav">
+            <h4>Untitled-Notepad</h4>
+            <div class="icons">
+                <span class="btn">--</span>
+                <span class="btn">o</span>
+                <span class="btn">x</span>
+            </div>
+        </div>
+        <div class="body">
+            <div class="title">
+                <span class="bars" id="file">File</span>
+                <div class="open">
+                    <ul>
+                        <li id="new">new</li>
+                        <li id="newWindow">new window</li>
+                        <li id="save">save</li>
+                        <li id="exit">exit</li>
+                    </ul>
+                </div>
+                <span class="bars">Edit</span>
+                <span class="bars">Format</span>
+                <span class="bars">View</span>
+                <span class="bars">Help</span>
+            </div>
+            <div class="textarea">
+                <textarea name="text" id="text"></textarea>
+            </div>
+
+        </div>
+        <div class="footer">
+            <div class="blank"></div>
+            <h6>li 1, col 1</h6>
+            <h6>100%</h6>
+            <h6>Window (CTRLF)</h6>
+            <h6>UTF-8</h6>
+        </div>
+    </div>
+
+    <script src="../javascripts/notepad.js"></script>
+</body>
+
+</html>
